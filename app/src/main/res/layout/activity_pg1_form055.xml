@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QualityDataEntry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cumiwork" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="20dp"
+                android:text="PG Form 055"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="ROLLING AND BENDING - DATA"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="Item Code:"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/PGForm055_ItemCode"
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:padding="3dip"
+                    android:text="WO No: "
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/PGForm055_WO_No"
+                    android:padding="3dip"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TableLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Sl No."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Length"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Width"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="ID"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="OD"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Ovality"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Weight"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Remarks"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Req."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Act."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Req."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="Act."
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="s1"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Length_S1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Width_S1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/PGForm055_ID_Requirement_1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_ID_Actual_1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/PGForm055_OD_Requirement_1"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_OD_Actual_1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Ovality_1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Weight_1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Remarks_1"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="s2"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Length_S2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Width_S2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/PGForm055_ID_Requirement_2"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_ID_Actual_2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/PGForm055_OD_Requirement_2"
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_OD_Actual_2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Ovality_2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Weight_2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/PGForm055_Remarks_2"
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="s3"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="s4"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:gravity="center"
+                        android:padding="3dip"
+                        android:text="s5"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:padding="3dip"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+
+            </TableLayout>
+        </HorizontalScrollView>
+
+
+        <Button
+            android:id="@+id/PGForm055_SubmitBtn"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="Submit"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:backgroundTint="#EA6D00" />
+
+    </LinearLayout>
+</ScrollView>

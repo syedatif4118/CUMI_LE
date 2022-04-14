@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_barcode_scanning.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard1.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_dashboard2.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_login.xml" value="0.16576086956521738" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_pg1_form055.xml" value="0.17074275362318841" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform020.xml" value="0.16576086956521738" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_qaform034.xml" value="0.15307971014492755" />
+        <entry key="..\:/Shubh/Cumi/AndroidApp/app/src/main/res/layout/activity_select_workorder.xml" value="0.1" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_barcode_generate1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_barcode_generate2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_dashboard1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_dashboard2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_inward_inspection_internal.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_material_inspection1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_material_inspection3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_material_inspection4.xml" value="0.2313546423135464" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_material_reciept.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_material_return.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_material_return1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_quality_data_entry.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_realease_for_inspection.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_release_for_inspection.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_release_for_inspection2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_select_process.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_select_workorder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_status_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/AndroidStudioProjects/CUMI-main/app/src/main/res/layout/activity_unloading_raw_material.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_barcode_scanning.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_dashboard1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_pg1_form055.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_select_process.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_status_form.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Atif/Desktop/CUMI-main/CUMI-main/app/src/main/res/layout/activity_unloading_raw_material.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
